@@ -4625,12 +4625,12 @@
     {
       "role": "editable-program",
       "path": "Farm-in-a-Box-25-Period-Teaching-Program-v1.0.docx",
-      "sha256": "669bd4fa0999fe27e271712afb953dfca6b7f7137a43290cbbbb75a2359385ca"
+      "sha256": "6ff0f43779b2d9110efa859e46c4f29a05c4394d7fed53c67e7c866322d65537"
     },
     {
       "role": "rendered-program",
       "path": "Farm-in-a-Box-25-Period-Teaching-Program-v1.0.pdf",
-      "sha256": "e0791d7a4ff209a024160f88c638e4918d1def39cabfdefbb5a1a58a7327c49f"
+      "sha256": "05dcc5dd89b8c48859cec1caf5b871c496d2894dab5a80a35365832d27dcd27c"
     },
     {
       "role": "delivery-register",

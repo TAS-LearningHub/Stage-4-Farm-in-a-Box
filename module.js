@@ -69,8 +69,12 @@
     const media = section.media;
     const video = media.video;
     const frameId = `video-frame-${section.section_id}`;
+    const thumbnailUrl = `https://i.ytimg.com/vi/${encodeURIComponent(video.id)}/hqdefault.jpg`;
     return `<aside class="video-learning" id="media-${section.section_id}" data-video-card data-video-id="${escapeHtml(video.id)}">
       <div class="video-learning__copy">
+        <a class="video-thumbnail" href="${escapeHtml(video.url)}" target="_blank" rel="noopener" aria-label="Open ${escapeHtml(video.title)} on YouTube">
+          <img src="${thumbnailUrl}" alt="Video thumbnail: ${escapeHtml(video.title)}" loading="lazy" width="480" height="360" referrerpolicy="no-referrer">
+        </a>
         <p class="label">Watch · ${escapeHtml(media.segment || video.duration)}</p>
         <h3>${escapeHtml(video.title)}</h3>
         <p><strong>Purpose:</strong> ${escapeHtml(media.purpose)}</p>

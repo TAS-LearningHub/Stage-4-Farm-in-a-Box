@@ -16,8 +16,9 @@
     const first = uses[0];
     const purpose = first?.section.media.purpose || 'Support the linked agriculture learning.';
     const watchFor = first?.section.media.watch_for || 'Notice evidence that connects to the module theory.';
+    const thumbnailUrl = `https://i.ytimg.com/vi/${encodeURIComponent(video.id)}/hqdefault.jpg`;
     return `<article class="video-library-card" data-library-video data-video-id="${escapeHtml(video.id)}">
-      <img src="${escapeHtml(first?.section.visual.src || 'assets/hero-farm-in-a-box.png')}" alt="${escapeHtml(first?.section.visual.alt || 'Farm in a Box course visual')}" loading="lazy">
+      <img src="${thumbnailUrl}" alt="Video thumbnail: ${escapeHtml(video.title)}" loading="lazy" width="480" height="360" referrerpolicy="no-referrer">
       <div class="video-library-card__body">
         <p class="label">${escapeHtml(video.channel)} · ${escapeHtml(video.duration)}</p>
         <h2>${escapeHtml(video.title)}</h2>
