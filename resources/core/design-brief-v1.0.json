@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "artefact_id": "farm-in-a-box-design-brief-v1.0",
+  "course_id": "stage-4-farm-in-a-box",
+  "title": "Farm in a Box: Grow More with Less",
+  "revision": "v1.0",
+  "created_at": "2026-09-02",
+  "authority": {
+    "type": "course-authored adaptable brief",
+    "source_ids": ["steve-brief-2026-09-02", "nesa-micro-farm-2024", "nsw-doe-grow-up-2024"],
+    "boundary": "The brief controls the design challenge and evidence purpose. It does not approve a crop, site, container, growing medium, tool, chemical, process or local safety control."
+  },
+  "situation": "Useful agriculture can happen in a small space. The challenge is to create a compact crop-production system that makes careful use of water and other resources, can be monitored with simple records, and can be improved when conditions change.",
+  "brief": "Design, establish, monitor, improve and evaluate a portable Farm in a Box crop-production system using the crop, location, materials, tools and processes approved by your teacher. Use evidence to show how the system supports plant growth, manages resources and could be improved for another growing cycle.",
+  "must_include": [
+    "a clearly defined need, intended users and measurable success criteria",
+    "research into the selected crop and its growing requirements",
+    "at least two genuinely different annotated design ideas",
+    "a justified final design and production plan",
+    "teacher-approved safe production and establishment",
+    "a field record containing dates, observations, measurements and decisions",
+    "at least one evidence-based test or modification",
+    "a final judgement against the criteria and a specific next-version proposal"
+  ],
+  "fixed_boundaries": [
+    "The course runs for 25 x 60-minute periods across approximately 10 weeks.",
+    "Manual observations and measurements are sufficient; sensors are optional enrichment.",
+    "The harvested material can be measured, graded and photographed without being eaten.",
+    "Crop failure, delayed growth or disrupted access becomes evidence for diagnosis and redesign; it does not automatically mean project failure.",
+    "Animals, aquaponics, permanent structures, mains-powered systems, pesticides and fertiliser instructions are not assumed by this brief."
+  ],
+  "success_criteria": [
+    {
+      "id": "criterion-function",
+      "criterion": "The system performs its intended crop-support function under the available conditions.",
+      "evidence_examples": ["plant condition and growth record", "water-path test", "labelled system photograph", "crop-failure diagnosis when applicable"]
+    },
+    {
+      "id": "criterion-resource-use",
+      "criterion": "Resource choices are justified and avoid unnecessary water, material and crop waste.",
+      "evidence_examples": ["water-use reasoning", "reused or responsibly selected component rationale", "waste-reduction decision"]
+    },
+    {
+      "id": "criterion-safety",
+      "criterion": "The approved project is produced and maintained using the teacher's current local controls.",
+      "evidence_examples": ["teacher-observed readiness", "label and hazard check", "production record"]
+    },
+    {
+      "id": "criterion-manageability",
+      "criterion": "The system can be monitored and maintained within the available time, location and care arrangements.",
+      "evidence_examples": ["maintenance schedule", "role plan", "weekend or absence contingency supplied by the teacher"]
+    },
+    {
+      "id": "criterion-communication",
+      "criterion": "Design and production decisions are communicated clearly with relevant evidence.",
+      "evidence_examples": ["annotated concepts", "production plan", "field record", "final pitch and evaluation"]
+    },
+    {
+      "id": "criterion-improvement",
+      "criterion": "Testing leads to a specific, evidence-based improvement or next-version proposal.",
+      "evidence_examples": ["before-and-after record", "data-linked modification", "reasoned next-cycle change"]
+    }
+  ],
+  "teacher_confirmation_required": [
+    "approved crop or supplied fallback specimen/data",
+    "growing location, light, water access, security and holiday care",
+    "container, growing medium, wick or water-delivery components and budget",
+    "approved tools, processes, PPE, warnings, SDS/SOP and local risk controls",
+    "group size, roles, accessibility adjustments and individual evidence expectations",
+    "whether produce is only measured or may be consumed under separate food-safety and allergy controls",
+    "formal assessment status and any notification, weighting, due date or submission requirement"
+  ],
+  "student_presentation": {
+    "route": "assessment.html#design-brief",
+    "folio_route": "folio.html#project-brief",
+    "display": "Complete on-page brief with printable view and accessible heading structure",
+    "download": "Not required; the public HTML brief is the canonical student version"
+  },
+  "privacy": "No student names, photographs, accounts or personal records are required by the brief."
+}

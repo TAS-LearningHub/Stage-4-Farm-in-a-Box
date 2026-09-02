@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <meta name="description" content="A calm device-local project folio for Farm in a Box, with backup, restore, print and readable evidence export.">
+  <title>My folio | Farm in a Box</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="course-family-navigation.css">
+  <link rel="stylesheet" href="support-routes.css">
+</head>
+<body data-depth="0" data-nav="folio" data-support-route="folio">
+  <a class="skip-link" href="#main">Skip to folio</a>
+  <header data-course-header></header>
+  <main id="main">
+    <div class="page-hero">
+      <div class="wrap">
+        <p class="eyebrow">Your selected project evidence</p>
+        <h1>My folio</h1>
+        <p class="lede">Keep the decisions, process evidence and evaluation that show how your Farm in a Box developed.</p>
+      </div>
+    </div>
+
+    <div class="save-note">
+      <div class="wrap"><span aria-hidden="true">💾</span><span><strong>Saved on this device:</strong> text and optional small images stay in this browser. Export a JSON backup before changing device, clearing browser data or finishing the course.</span></div>
+    </div>
+
+    <section>
+      <div class="wrap">
+        <figure class="route-visual">
+          <img src="assets/route-folio-field-notebook.png" alt="An open field notebook shows successive plant sketches and an unlabeled growth graph beside a ruler, pencil and seedling tray." loading="lazy" width="1672" height="941">
+          <figcaption><strong>Look closely:</strong> Useful field evidence records change over time through observations, measurements and sketches. <span>Notice the sequence of sketches, measurements and graph. Which record would help you compare change over time?</span> <a class="visual-open" href="assets/route-folio-field-notebook.png" target="_blank" rel="noopener" aria-label="Open larger image: field notebook with plant sketches, measurements and a growth graph">Open larger</a></figcaption>
+        </figure>
+        <div class="support-intro">
+          <div>
+            <p class="eyebrow">Brief-led evidence</p>
+            <h2>Show decisions, process and results</h2>
+            <p>This folio is not a second copy of every lesson. Select evidence that proves a decision, an agricultural process, a test result or an improvement.</p>
+          </div>
+          <p class="status-chip" data-folio-summary>0 of 10 evidence cards have enough context for your own review.</p>
+        </div>
+
+        <div class="folio-next" aria-live="polite"><p data-folio-next><strong>Next useful action:</strong> begin with the project brief, then open the first evidence card.</p></div>
+
+        <article class="support-card brief-card" id="project-brief">
+          <p class="label">Course-authored adaptable brief</p>
+          <h2>Farm in a Box: Grow More with Less</h2>
+          <p><strong>Situation:</strong> Useful agriculture can happen in a small space. The challenge is to create a compact crop-production system that makes careful use of water and other resources, can be monitored with simple records, and can be improved when conditions change.</p>
+          <p><strong>Design brief:</strong> Design, establish, monitor, improve and evaluate a portable Farm in a Box crop-production system using the crop, location, materials, tools and processes approved by your teacher. Use evidence to show how the system supports plant growth, manages resources and could be improved for another growing cycle.</p>
+
+          <h3>Your folio should show</h3>
+          <ul class="support-list">
+            <li>a clearly defined need, intended users and measurable success criteria;</li>
+            <li>research into the selected crop and its growing requirements;</li>
+            <li>at least two genuinely different annotated design ideas;</li>
+            <li>a justified final design and production plan;</li>
+            <li>teacher-approved safe production and establishment;</li>
+            <li>a field record containing dates, observations, measurements and decisions;</li>
+            <li>at least one evidence-based test or modification; and</li>
+            <li>a final judgement against the criteria and a specific next-version proposal.</li>
+          </ul>
+
+          <h3>Success criteria</h3>
+          <ul class="criteria-grid">
+            <li><strong>Function</strong><br>The system performs its intended crop-support function under the available conditions.</li>
+            <li><strong>Resource use</strong><br>Choices avoid unnecessary water, material and crop waste and are justified with evidence.</li>
+            <li><strong>Safe production</strong><br>The approved project uses the teacher’s current local controls.</li>
+            <li><strong>Manageability</strong><br>The system can be monitored and maintained within the available time, place and care arrangements.</li>
+            <li><strong>Communication</strong><br>Design and production decisions are clear and supported by relevant evidence.</li>
+            <li><strong>Improvement</strong><br>Testing leads to a specific evidence-based improvement or next-version proposal.</li>
+          </ul>
+
+          <div class="callout">
+            <p><strong>Crop failure is usable evidence.</strong> Delayed germination, unexpected growth, weather or disrupted access can be recorded, diagnosed and used for redesign. Your teacher may provide a fallback image or data set so you can complete equivalent analysis.</p>
+          </div>
+          <p class="fine">The brief does not approve a crop, site, container, growing medium, tool, chemical, process or local safety control. Those choices must come from your teacher.</p>
+        </article>
+
+        <div class="support-toolbar screen-only" aria-label="Folio tools">
+          <button type="button" data-export-folio-json>Export editable JSON backup</button>
+          <button type="button" class="button secondary" data-choose-restore>Restore JSON backup</button>
+          <input class="screen-reader-only" id="restore-folio" type="file" accept="application/json,.json" data-restore-folio>
+          <button type="button" class="button secondary" data-export-folio-text>Export readable text</button>
+          <button type="button" class="button secondary" data-print-route>Print folio</button>
+          <button type="button" class="danger-button" data-reset-folio>Reset this folio</button>
+          <span role="status" aria-live="polite" data-folio-status>Ready. Text saves after each change.</span>
+        </div>
+
+        <noscript><p class="callout">Turn on JavaScript to save, back up and restore this folio. The design brief above remains readable without it.</p></noscript>
+        <div class="folio-bank" data-folio-bank></div>
+      </div>
+    </section>
+
+    <section class="soft">
+      <div class="wrap support-grid">
+        <article class="support-card">
+          <h2>Backup versus readable export</h2>
+          <p><strong>JSON backup</strong> is the editable recovery file and includes optional small images. <strong>Readable text</strong> contains your written evidence and image captions, but not the image data.</p>
+        </article>
+        <article class="support-card boundary-card">
+          <h2>Export is not submission</h2>
+          <p>Printing or exporting preserves your work. It does not send anything to a teacher, verify safe practice, prove teacher observation or replace any school process your teacher later confirms.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer data-course-footer></footer>
+  <script src="course-data.js"></script>
+  <script src="shared.js"></script>
+  <script src="support-routes.js"></script>
+</body>
+</html>

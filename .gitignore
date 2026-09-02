@@ -1,0 +1,10 @@
+_project/
+resources/sources/
+source-map-v1.0.json
+build-scope-v1.0.json
+family-benchmark-contract.json
+foundation-manifest.json
+core-artefact-manifest.json
+video-manifest.json
+~$*
+*.tmp
